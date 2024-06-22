@@ -18,7 +18,7 @@ A bad example, would be:
 }
 </style>
 ```
-In the preceeding code, any future change to the .primary-header will affect both elements, which reduces flexibility and can creates complications as the code grow larger.
+In the preeeding code, any future change to the .primary-header will affect both elements, which reduces flexibility and can creates complications as the code grow larger.
 
 A good example, would be:
 ```html
