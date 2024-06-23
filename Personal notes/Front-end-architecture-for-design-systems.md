@@ -1,5 +1,5 @@
 # CSS
-## 1- Single Responsibility Principle: 
+## 1- Single Responsibility Principle
 Everything that is created for one single purpose.
 
 A bad example, would be:
@@ -45,7 +45,7 @@ A good example, would be:
 ```
 
 
-## 2- Single Source of Truth
+## 2- Single Source of Truth Principle
 All styles that are applied to a class come from a single source.
 
 Let's say we have the following code:
