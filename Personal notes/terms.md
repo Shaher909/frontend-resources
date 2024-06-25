@@ -22,3 +22,4 @@ Example: for npm scripts, the details are stored the package.json file:
 ```
 Then you can use npm build to run the task as specified above.
 
+**Unit testing:** the process of breaking down the application code to the smallest possible functions and creating repeatable, automated tests that continually produce the same result.
