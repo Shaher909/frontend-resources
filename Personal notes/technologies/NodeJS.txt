@@ -1,0 +1,1 @@
+NodeJS is a run time env. for implementing JS code outside the browser (particularly on the server).

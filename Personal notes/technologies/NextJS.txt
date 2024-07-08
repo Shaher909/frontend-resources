@@ -1,0 +1,14 @@
+Next.js is react-based which support static and server-rendered pages which help to build dynamic and hybrid applications.
+It builds on top of React.js to provide additional services, features and tools (bundling, compiling, fetching data, routing and TypeScript ..etc.)
+
+It can run:
+#1 Server-side rendering which entails dynamic generation where the server renders the React application generating the HTML
+#2 Static site generation in which it pre-renders the site by copying files into CDN which increases the speed of the site.
+#3 Static incremental rendering in which statid and dynamic properties are comgined allowing generation of static content but at the time providing possiblity to updaing certain elements before the generation.
+
+It supports:
+#1 Using TypeScript
+#2 File-based router supporting layouts, nested routing and error handling
+#3 Styling via CSS modules, tailwind or CSS-in-JS
+#4 Data Fetching through async/await in server components.
+#5 Optimizations for images, fonts and scripts.
