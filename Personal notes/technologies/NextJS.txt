@@ -1,4 +1,4 @@
-Next.js is react-based which support static and server-rendered pages which help to build dynamic and hybrid applications.
+Next.js is a free and open source react-based framework which supports static and server-rendered pages which help to build dynamic and hybrid applications.
 It builds on top of React.js to provide additional services, features and tools (bundling, compiling, fetching data, routing and TypeScript ..etc.)
 
 It can run:

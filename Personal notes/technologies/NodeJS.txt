@@ -1,1 +1,8 @@
-NodeJS is a run time env. for implementing JS code outside the browser (particularly on the server).
+NodeJS is a free and open source JS execution / runtime env  (particularly on the server / outside the browser).
+Its applications run in a singple process which enables async and event-driven I/O which suited for fast web apps.
+It can hnadle bulk operations (like interactions with DB and networks) with a server without multi-threading.
+
+Main features:
+- Non-blocking model that handles operations async
+- Modularity (code sharing in large scale apps)
+- Built-in debugging tools and console.log() support for troubleshooting
