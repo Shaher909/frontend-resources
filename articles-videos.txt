@@ -1,4 +1,4 @@
-#1 The discpline of content strategy: https://alistapart.com/article/thedisciplineofcontentstrategy/
-#2 Responsive web design: https://alistapart.com/article/responsive-web-design/
-#3 10 Things I regret about NodeJS: https://youtu.be/M3BM9TB-8yA
-#4 Next.JS and Node.JS - a modern contrast: https://code.pieces.app/blog/nextjs-vs-nodejs-a-modern-contrast 
+#1 The discpline of content strategy: https://alistapart.com/article/thedisciplineofcontentstrategy/ (✓)
+#2 Responsive web design: https://alistapart.com/article/responsive-web-design/ (✓)
+#3 10 Things I regret about NodeJS: https://youtu.be/M3BM9TB-8yA (x)
+#4 Next.JS and Node.JS - a modern contrast: https://code.pieces.app/blog/nextjs-vs-nodejs-a-modern-contrast (✓)
