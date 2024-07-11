@@ -6,3 +6,10 @@ Main features:
 - Non-blocking model that handles operations async
 - Modularity (code sharing in large scale apps)
 - Built-in debugging tools and console.log() support for troubleshooting
+
+Setup:
+Takes a bit of time and requires a considerable amount of config files at the root directory.
+
+Routing:
+- Using a framework, like Express provides the necessary objects and methods to perform routing.
+- Without a framework requires a server setup by the development team for which the HTTP module could be used.

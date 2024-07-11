@@ -20,6 +20,9 @@
 
 **Time to document complete:** the time needed to load all of the initially requested assets.
 
+# Key Info:
+- With client side rendering (CRS), the first contentful paint could be slower compared to server side rendered pages which reduces the Google Lighthouse Score.
+
 # Useful tools
 1- HTTPArchive: https://httparchive.org/reports is a useful tool that provides average baseline for many important performance metrics.
 
