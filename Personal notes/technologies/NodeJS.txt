@@ -1,6 +1,8 @@
 NodeJS is a free and open source JS execution / runtime env  (particularly on the server / outside the browser).
 Its applications run in a singple process which enables async and event-driven I/O which suited for fast web apps.
 It can hnadle bulk operations (like interactions with DB and networks) with a server without multi-threading.
+NodeJS could be suitable for many use cases and has a broader landscape compared to other frameworks like NextJS which is mainly focused on web applications as NodeJS can be useful in IoT, data analytics fields as well.
+
 
 Main features:
 - Non-blocking model that handles operations async
