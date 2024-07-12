@@ -1,0 +1,11 @@
+Elm: https://elm-lang.org/
+Elm is a programming language that was focused on providing reliable web application by specifically eliminating the occurrences of run time exceptions.
+The compiler will do comprehensive evaluation and provides feedback & messages during the build in order block going live with any possible error (apart from logical errors).
+
+
+The architecture of Elm: https://guide.elm-lang.org/architecture/
+It basically based on spitting out HTML and accepting messages.
+It has 3 main core components:
+- Model: state of the application
+- View: a way to turn state into HTML
+- Update: a way to update things based on the messages
