@@ -27,3 +27,7 @@ Then you can use npm build to run the task as specified above.
 **Atomic Design:** is an approach in which design focuses on the smallest element that can be used to create a front-end representation (atom) instead of starting by whole web page designing. Usually the different atoms can be combined together to create molecules which are usually a set of atoms which represent something meaningful on the user interface like a search form (title as an atom + fields as atom + submit button as an atom ..etc). Organism is the next building block which contains multiple molecules like a blog post section on a website. Afterwards come templates which are the combination of different organisms including headers and footers.
 
 **Software Architecture:** “a set of artifacts (that is principles, guidelines, policies, models, standards and processes) and the relationships between these artifacts, that guide the selection, creation and implementation of solutions aligned with business goals. Software architecture is the structure of structures of an information system of entities and their externally visible properties, and the relationships among them. (Dr. Jean-Claude Franchitti)
+
+**Web Framework** it's a collection of tools, high level interfaces and and features to improve the developer experience.
+
+**Command Line Interface** a mechansim that allows you to interact with your comptuer's OS via written commands via keyboard..

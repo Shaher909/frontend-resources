@@ -18,10 +18,13 @@ Quick simple and common uses:
 - for bold use -> **word**
 - for italic use -> _word_
 - for adding code use -> `code_word` 
-- for headers use -> :
+- for headers use -> : 
 # header1  
 ## header2
 ..etc.
 
 ----
  
+It's possible to do fancy things using HTML as it's still a markup langauge.
+
+to preview .md content in a browser -> here's a useful tool: https://dillinger.io/

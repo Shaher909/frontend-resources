@@ -1,0 +1,8 @@
+Jamstack: is a modern way to build websites based on 3 parts architecture:
+- JavaScript
+- APIs
+- Markup
+
+2 core concepts are:
+-> Pre-rendering: entire front-end is built and delivered ready to the customer for fast performance
+-> Decoupling of systems and services
