@@ -9,3 +9,5 @@ It has 3 main core components:
 - Model: state of the application
 - View: a way to turn state into HTML
 - Update: a way to update things based on the messages
+
+Elm promises simplicity and better web performance.
