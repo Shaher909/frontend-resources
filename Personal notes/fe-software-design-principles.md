@@ -1,4 +1,4 @@
-# CSS
+# Front-end Software Design Principles
 ## 1- Single Responsibility Principle
 Everything that is created for one single purpose.
 
