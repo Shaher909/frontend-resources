@@ -29,3 +29,4 @@
 - Darwin Architecture Analysis and Design Language (AADL) (x)
 - Unified Modeling Language (x)
 - C4 diagraming technique by Simon Brownand (x)
+- Bazel (x)
