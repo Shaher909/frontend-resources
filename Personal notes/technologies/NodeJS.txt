@@ -16,3 +16,6 @@ Takes a bit of time and requires a considerable amount of config files at the ro
 Routing:
 - Using a framework, like Express provides the necessary objects and methods to perform routing.
 - Without a framework requires a server setup by the development team for which the HTTP module could be used.
+
+Components:
+- package-lock.json: contains the exact versions of packages and their dependencies, and ensures the same versions are used across envs. This helps in keeping version consistency when collaborating.

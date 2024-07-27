@@ -30,3 +30,11 @@
 - Unified Modeling Language (x)
 - C4 diagraming technique by Simon Brownand (x)
 - Bazel (x)
+
+Security:
+- XSS (x)
+- SQL Injection (x)
+- HTTPS (x)
+- CORS (x)
+- Bearer tokens (x)
+- Data sanitation (x)
