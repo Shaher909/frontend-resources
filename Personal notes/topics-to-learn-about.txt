@@ -30,6 +30,11 @@
 - Unified Modeling Language (x)
 - C4 diagraming technique by Simon Brownand (x)
 - Bazel (x)
+- Abstract Syntax Tree (AST) (x)
+
+Testing:
+- Applitools
+
 
 Security:
 - XSS (x)
