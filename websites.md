@@ -3,3 +3,5 @@
 [designsystemsrepo.com](https://designsystemsrepo.com) - from Professional front-end architecture, Fabio N.
 
 [Architectural Decision Records](https://adr.github.io) - from Professional front-end architecture, Fabio N.
+
+[Programming Languages Exercises](https://exercism.org/tracks) 
