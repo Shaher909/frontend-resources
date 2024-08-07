@@ -1,6 +1,6 @@
 Next.js is a free and open source react-based framework which supports static and server-rendered pages which help to build dynamic and hybrid applications. While stand-alone react app are client-side rendered.
 It builds on top of React.js to provide additional services, features and tools (bundling, compiling, fetching data, routing and TypeScript ..etc.)
-NextJS is idea for eCommerce, marketing and portfolio sites when changes are done in real-time.. it's a front-end tool set.
+NextJS is ideal for eCommerce, marketing and portfolio sites when changes are done in real-time.. it's a front-end tool set.
 
 
 Features:
