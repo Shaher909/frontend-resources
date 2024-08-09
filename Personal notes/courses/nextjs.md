@@ -85,4 +85,4 @@ http://localhost:3000/product/id which corresponds to the file structure > src/a
 - Defining new directories is possible by creating folders and create page.tsx in each of them.
 - the '.next' folder provides the built version of the application.
 - when using console.log() by default this will not be visible in the browser (as it rendered on the server side), to make it in the browser use `use client` at the top of the component (this makes it render on client side).
-d
+...
