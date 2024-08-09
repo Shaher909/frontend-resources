@@ -19,12 +19,15 @@ It supports:
 #4 Data Fetching through async/await in server components.
 #5 Optimizations for images, fonts and scripts.
 
-
 # Setup:
 NextJS comes with a default setup that allows a quick start, with directories for specific purposes and automatic routing.
 
 ## Routing:
 - Using React Router and client side routing via the link component.
+In the older versions of nextJS, the Pages directory automatically creates routes within the 'pages' folder. While in the newer versions from 2023 onwards, the App Router organizes routes within the 'app' folder.
+
+To create a route: create a folder within 'app' and create the "page" component (.js, .tsx ..etc.) inside of it. It's critical that the name of the file is page.js inside each folder.
+The folder name would represent the URL path.
 
 ## Project file structure:
 <!-- Below is not the latest concepts, as NextJS have a new concept of "app" which replaces pages-->
@@ -49,3 +52,9 @@ If there's a need to specify explicitly that something needs to run on the serve
 #2 Client components (pre-rendered on the server) and uses client JS to run in browser -> to use it, specify 'use client' on top of the component JS file.
 
 What's hydration? It's the process of attaching event listeners to the DOM to make static HTML interactive.
+
+
+# Quick recap
+- When using newer versions of Next.JS - the app starts from the 'app' folder -> page.tsx.
+- Defining new directories is possible by creating folders and create page.tsx in each of them.
+- the '.next' folder provides the built version of the application.
