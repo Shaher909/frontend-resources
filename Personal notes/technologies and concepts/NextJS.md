@@ -28,6 +28,7 @@ In the older versions of nextJS, the Pages directory automatically creates route
 
 To create a route: create a folder within 'app' and create the "page" component (.js, .tsx ..etc.) inside of it. It's critical that the name of the file is page.js inside each folder.
 The folder name would represent the URL path.
+The `Link`component is used to navigate from one route to the other.
 
 ## Project file structure:
 <!-- Below is not the latest concepts, as NextJS have a new concept of "app" which replaces pages-->
