@@ -28,7 +28,8 @@ or
 ## File Structure:
 - **package.json** file contains the manifest of the project with references to all dependencies & metadata of the APP
 - **node_modules** directly: contains all the dependencies
-- **pages** directory: contains the pages and views of the application
+- (depricated) **pages** directory: contains the pages and views of the application 
+- **app** directory: contains the routes structure of the APP 
 -- **api** directory: contains the calls with the server (specifically)
 - **styles** directory: contains the CSS
 
@@ -62,9 +63,25 @@ In the older versions of nextJS, the Pages directory automatically creates route
 
 To create a route: create a folder within 'app' and create the "page" component (.js, .tsx ..etc.) inside of it. It's critical that the name of the file is page.js inside each folder.
 The folder name would represent the URL path.
-The `Link`component is used to navigate from one route to the other.
+The `Link` component is used to navigate from one route to the other.
+
+### Dynamic Routes:
+For large applications, it's often the case, that the URL path would contain dynamic part, ex: /category/productCode (in this case productCode is dynamic).
+
+Using APP router, Dynamic Segments are used and gets filled during request time (or at build time).
+To use it, name the folder using [].
+Then inside the folder, create the page.tsx file, and then inside it you can capture the value from the URL path (ex: passed during the request) to react on it and load the necessary content accordingly:
+`
+export default function Page({ params }: { params: { id: string } }) {
+  return <div>My Post: {params.id}</div>
+}
+`
+
+http://localhost:3000/product/id which corresponds to the file structure > src/app/product/[id]/page.tsx
+
 
 # Quick recap
 - When using newer versions of Next.JS - the app starts from the 'app' folder -> page.tsx.
 - Defining new directories is possible by creating folders and create page.tsx in each of them.
 - the '.next' folder provides the built version of the application.
+- when using console.log() by default this will not be visible in the browser (as it rendered on the server side)
